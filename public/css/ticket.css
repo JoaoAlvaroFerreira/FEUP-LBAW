@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    color: #ffffff;
+    font-family: "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+  }
+
+  .ticket{
+    margin-top: 1rem;
+    border-color: black;
+
+  }
+
+  .container {
+    width: 900px;
+    margin-top: 70px;
+    border-left-width: 40px;
+    border-left-style: solid;
+    border-color: black;
+  }
+
+  section {
+    position: relative;
+    height: 100%;
+    background-image: url('https://c4.wallpaperflare.com/wallpaper/535/320/864/3840x2160-px-game-grumps-gradient-polka-dots-simple-simple-background-soft-gradient-steam-train-nature-seasons-hd-art-wallpaper-preview.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+  }
+
+  section .meetcamp{
+   color: grey;
+  }
+
+  .meetcamp{
+    margin-left:2rem;
+    margin-top:2rem;
+  }
+
+  section .left {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 635px;
+    padding: 35px 0 0 60px;
+  }
+  section .right {
+    float: right;
+    width: 160px;
+    padding-top: 30px;
+  }
+  section .event {
+    margin-bottom: 30px;
+    color: #041B15;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 35px;
+  }
+  section .description {
+    margin-bottom: 10px;
+    color: #041B15;
+    font-weight: 700;
+    font-size: 1.2em;
+    line-height: 35px;
+  }
+  section .title {
+    margin-bottom: 35px;
+    color: rgb(34, 98, 117);
+    font-size: 2.2rem;
+    font-family: "Monoton", cursive;
+    line-height: 50px;
+    margin-left:-1rem;
+  }
+  section .info {
+    font-size: 0.6em;
+    color: #041B15;
+    text-transform: uppercase;
+  }
+  section .seats {
+    margin-bottom: 35px;
+    font-size: 0.50em;
+    text-transform: uppercase;
+    text-align: right;
+  }
+  section .seats:last-child {
+    margin-bottom: 0;
+  }
+  section .seats span {
+    display: inline-block;
+    width: 160px;
+    margin-left: 15px;
+    padding: 10px 0;
+    color: black;
+    background: rgba(255, 255, 255, 0.5);
+    font-family: "Kreon", serif;
+    font-size: 2em;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  @media print {
+section {
+  
+   -webkit-print-color-adjust: exact !important;   /* Chrome, Safari */
+   
+  }
+
+
+}
